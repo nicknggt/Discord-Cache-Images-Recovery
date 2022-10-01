@@ -25,7 +25,7 @@
 	- **Win \+ E** to open Windows Explorer, goto options:
 		- ![tutorial_s_1](./trash/step_1.png)
 	- Goto **View** Tab and **untick** the option `Hide extensions for known file types`
-		- ![tutorial_s_2](./trash/step_2.png)
+		- ![tutorial_s_2](step_2.png)
 
 <a name="while_run"/></a>
 ## To run `launcher.exe`:
