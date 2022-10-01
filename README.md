@@ -16,5 +16,5 @@
 
 <a name="how_use"/></a>
 # How to use
-- **Make sure** your _Discord Cache folder_ located in **C** Drive (specifically in `C:\Users\YOUR_USER_NAME_DOES_NOT_MATTER\AppData\Roaming\Discord\Cache`)
+- **Make sure** your _Discord Cache folder_ located in **C** Drive (specifically in `C:\Users\YOUR_USER_NAME_DOES_NOT_MATTER\AppData\Roaming\Discord\Cache`). Otherwise, the executable file won't work :))
 - Run the executable file **launcher.exe**. It will convert all files in the Cache folder into image files and **move** it to a new created folder **Discord_Cache_Images**
