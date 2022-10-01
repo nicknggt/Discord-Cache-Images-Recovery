@@ -29,5 +29,5 @@
 
 <a name="while_run"/></a>
 ## To run `launcher.exe`:
-- Make sure to run it in any of the **C** Drive to avoid **permisson denied** problem and **run it as administrator**
+- Make sure to put it in **C** Drive in any folders and run to avoid **permisson denied** problem and **run it as administrator**
 - It will convert all files in the Cache folder into image files and **move** it to a new created folder **Discord_Cache_Images**
