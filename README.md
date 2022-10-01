@@ -20,7 +20,7 @@
 - **Make sure** your _Discord Cache folder_ located in **C** Drive (specifically in `C:\Users\YOUR_USER_NAME_DOES_NOT_MATTER\AppData\Roaming\Discord\Cache`). Otherwise, the executable file won't work :))
 - Make sure to enable Extension file, to enable it, simply do:
 	- **Win \+ E** to open Windows Explorer, goto options:
-		- ![tutorial_s_1](./trash/step_1)
+		- ![tutorial_s_1](trash/step_1)
 	- Goto **View** Tab and **untick** the option `Hide extensions for known file types`
 
 - Run the executable file **launcher.exe**. It will convert all files in the Cache folder into image files and **move** it to a new created folder **Discord_Cache_Images**
