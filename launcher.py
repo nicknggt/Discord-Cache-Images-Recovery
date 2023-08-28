@@ -40,14 +40,16 @@ def move_files_to_folder(source_dir, target_dir):
 
 
 # Main:
-images_path = "./Discord_Cache_Images"
-users_pc: str = getlogin()
-cache_folder_path = f'C:/Users/{users_pc}/AppData/Roaming/Discord/Cache/'
 
-run_as_admin()
-print("Creating folder to store your images cache...")
-create_dir(images_path)
-print(f"Changing files extension in {cache_folder_path}")
-change_file_ext(cache_folder_path,'.png')
-print(f"Moving files in {cache_folder_path} to a new destination {images_path}")
-move_files_to_folder(cache_folder_path, images_path)
+if __name__ == "__main__":
+    images_path = "./Discord_Cache_Images"
+    users_pc: str = getlogin()
+    cache_folder_path = f'C:/Users/{users_pc}/AppData/Roaming/Discord/Cache/Cache_Data/'
+
+    run_as_admin()
+    print("Creating folder to store your images cache...")
+    create_dir(images_path)
+    print(f"Changing files extension in {cache_folder_path}")
+    change_file_ext(cache_folder_path,'.png')
+    print(f"Moving files in {cache_folder_path} to a new destination {images_path}")
+    move_files_to_folder(cache_folder_path, images_path)
